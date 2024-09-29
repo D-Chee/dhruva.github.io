@@ -1,2 +1,2 @@
-# dhruva.github.io
+# dhruvacheethirala.github.io
 Dhruva's Home
