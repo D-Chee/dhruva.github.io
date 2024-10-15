@@ -1,0 +1,124 @@
+body{
+    background: linear-gradient(#F2EFDF, #9BA7BF);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: xx-large;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: "Rubik", sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:#000000;
+    background-color:#9BA7BF;
+}
+p{
+    font-family: "Rubik", sans-serif;
+}
+#bar{
+    position:sticky;
+    top: 0px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-color: #607EA6;
+    padding: 5px;
+    background-color: #9BA7BF;
+    color:#000000;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+}
+button{
+    width: 13%;
+    margin: 0px;
+    font-family: "Rubik", sans-serif;
+    font-size:20px;
+    background-color: transparent;
+    border-top:none;
+    border-bottom:none;
+    border-left:none;
+    transition-duration: 0.3s;
+}
+button:hover{
+    color: #F2EFDF;
+}
+.main-text{
+    font-family: "Rubik", sans-serif;
+    border-style:solid;
+    border-width: 5px;
+    border-color: #607EA6;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #9BA7BF;
+    color:#000000;
+    box-shadow: 5px 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#main{
+    max-width: 57%;
+    float:left;
+}
+img{
+    border-style: solid;
+    border-width: 5px;
+    border-color: #607EA6;
+    border-radius: 15px;
+    box-shadow: 5px 5px;
+}
+#img1{
+    max-width: 25%;
+    float:right;
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#img2{
+    max-width: 25%;
+    float:left;
+    margin-left: 5%;
+    margin-right: 0%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+figcaption{
+    font-family: "Rubik", sans-serif;
+    font-size:25px;
+    word-wrap: break-word;
+} 
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width:100%;
+}  
+#images{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.caption{
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    border-style:solid;
+    border-width: 5px;
+    border-color: #607EA6;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #9BA7BF;
+    color:#000000;
+    box-shadow: 5px 5px;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 20%;
+}
